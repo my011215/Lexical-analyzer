@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowmenu</class>
+ <widget class="QMainWindow" name="MainWindowmenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../picture/mylogo2.ico</normaloff>../picture/mylogo2.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">backgroud:rgba(196, 196, 196, 0.2);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15;
+background: rgb(196, 196, 196);
+font-size:36px;
+font-weight:500;</string>
+    </property>
+    <property name="text">
+     <string>系统维护</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>320</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15;
+background: rgb(196, 196, 196);
+font-size:36px;
+font-weight:500;</string>
+    </property>
+    <property name="text">
+     <string>词法分析</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>90</y>
+      <width>371</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:0px;
+background-color:white;</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:0;
+background: rgb(116, 116, 116);
+font-size:36px;
+font: 20pt &quot;隶书&quot;;
+font-weight:500;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>字符表</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:0;
+background: rgb(116, 116, 116);
+font-size:36px;
+font: 20pt &quot;隶书&quot;;
+font-weight:500;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>单词分类</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>170</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:0;
+background: rgb(116, 116, 116);
+font-size:36px;
+font: 20pt &quot;隶书&quot;;
+font-weight:500;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>词法规则</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:0;
+background: rgb(116, 116, 116);
+font-size:36px;
+font: 20pt &quot;隶书&quot;;
+font-weight:500;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>关键字表</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:0;
+background: rgb(116, 116, 116);
+font-size:36px;
+font: 20pt &quot;隶书&quot;;
+font-weight:500;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>单字符分隔符表</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>170</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:0;
+background: rgb(116, 116, 116);
+font-size:36px;
+font: 20pt &quot;隶书&quot;;
+font-weight:500;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>词法分析DFA</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:0;
+background: rgb(116, 116, 116);
+font-size:36px;
+font: 20pt &quot;隶书&quot;;
+font-weight:500;
+color:white;
+</string>
+      </property>
+      <property name="text">
+       <string>词法分析过程展示</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
